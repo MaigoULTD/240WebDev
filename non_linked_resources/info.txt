@@ -1,0 +1,218 @@
+About BSIT program: Bachelor of Science in Information Technology is a program provided by College of Management(CM) and College of Science and Mathematics(CSM). The program provides a quality education that focuses on the skills and knowledge needed by a diverse group of students to advancement and to pursue advanced degrees in information technology.
+Learning Objectives: 
+Develop strengths in all aspects of information technology and acquire knowledge, abilities, and hands-on skills that are valuable to employers in a market. Also, our course is designed in such a way that reinforces core business skills like: project management, business communications, group dynamics, and organization skills.
+IT tracks and majors:
+ The IT major consists of a common core of ten courses, a track of four to six courses in a particular area of specialization (the business intelligence track requires five courses), a common capstone course, and three to five professional electives.There are four IT tracks and majors:
+Some of the major tracks of IT are as follows:
+1) Computing Forensic:
+This track focuses on collecting data and presenting in a digital way for preventing/ resolving crime. Computer is being used for committing crimes and the need for experts to extract useful information from computer evidence is very much in demand.
+Courses Required:
+Sociology104 Intro to Criminal Justice
+The course focuses on giving students a theoretical and empirical foundation of the criminal justice system. Topics will also include the nature of victimization, the inner workings of the criminal justice system and the outcomes for offenders leaving the system. This course is offered both in fall and spring.
+IT 220 Computer Forensics I
+This course looks specifically at how one obtains evidence off of a computer, other digital devices and from network messages and logs, preserving the evidentiary chain, and the legal aspects of the search and seizure of computers and related equipment/information. This course is offered in spring.
+IT 221 Computer Forensics II
+This course focuses on the use of specific tools such as Encase for the digital analysis of the data collected. It exposes students to advanced concepts in digital/computer forensic analysis. This course is offered in fall.
+IT-420 Network and Mobile forensics
+This course deals with the collection, preservation, and analysis of network generated digital evidence such that this evidence can be successfully presented ina court of law (both civil and criminal).Students will understand, learn, and experience the relationship between forensic analysis and network security technologies.
+IT-421 Malware Analysis
+Malware (virus, worms, rootkits, spam...) represents an increasing information security threat to computer systems and networks. Students will review software engineering design fundamentals and reverse engineering techniques utilized to conduct static and dynamic forensic analysis on computer systems and networks on multiple platforms (e.g.Windows, Linux..).
+Sociol 364 Cyber Crime
+Examination of the characteristics and impact of cyber crime with a focus on implications for social control.
+Pre Requisites: Pre-req = SOCIOL 101
+
+2) Information Architecture Track:
+Information Architecture Track focuses on designing and implementing information system that supports and enables business strategies and operations. This track prepares you to understand how to design, deploy, and manage an efficient IT architecture to support their information systems.
+Take four required courses
+IT 360 Enterprise software
+This course focuses on use of collaborative technologies and business applications to demonstrate the work of virtual teams and how they implement their operations.
+Pre Requisites: IT 110 or MSIS 110 and 60 credits
+IT 460 Integration Methodologies and tools
+This course focuses on developing an understanding of applications architecture. Students will be using  several tools to exemplify the use of heterogeneous reusable modules to fulfill an information service
+Pre Requisites: Prerequsite = IT 110 and 60 credits
+IT 461L System analysis and design
+This course focuses  systems development methodologies and also includes practical experience in analyzing and designing an organizational application. It discusses the concept of quality as applied to information systems and business process redesign as well as the role of information systems in managing quality within an organization
+
+Pre Requisites: Prerequsite = IT 110 and 60 credits
+IT-428L Information System security
+This course provides a broad overview of the threats to the security of information systems, the responsibilities and basic tools to ensure information security, and the levels of training and expertise needed in organizations to reach and maintain a state of acceptable security.
+Pre Requisites: Prerequsite = IT 110 and 60 credits
+
+
+
+
+
+3) System administration:
+In this field, it could be software, hardware, servers, workstations etc. This helps to check if the system is running efficiently or effectively or not.
+Four required courses:
+IT 341 Introduction to system administration
+This is an introduction to the process of choosing, installing, configuring, and maintaining UNIX operating systems such as Linux.
+ Pre-requisite = IT 244
+IT 441 Network Services Administration
+This course includes scripting, heterogeneous networks, remote management, the legal issues of network administration, and introduction to network security, and the design and implementation of policy. Students are also introduced to issues in managing others.
+Pre Requisites: IT 341
+
+IT 442 windows System Administration
+This course includes user management, file systems, network domains and domain management, mailers, and printing. Students get practice in writing scripts for performing maintenance tasks
+Pre Requisites: IT 341
+
+ 
+IT 443 Network Security Administration
+This course is project-based and includes such topics as threat analysis and management, cryptography, firewalls, isolation, issues in securing wireless networks, and certificates.
+Pre Requisites: IT 341
+
+4) Business Intelligence:
+This is a technology-driven method where data are analyzed, information is executed, and business decisions are made with respect to the collected data and information.
+
+
+
+Three required courses:
+IT 370 Business Intelligence
+This course combines architectures, tools, databases, data warehouses, analytical tools, applications, and methodologies. The major objective is to enable easy access to data (and models) to provide business managers with the ability to conduct analysis. It helps transform data, to information (and knowledge), to decisions, and finally to action.
+IT 471 Data Warehousing
+This course covers design and implementation of  data marts and operational data stores. his course involves designing a data warehousing system and the implementation of a database with a stare schema, gathering data from primary data sources, transforming data, and loading it into a database management system. Students create cubes using OLAP and analyze cube data using client application.
+Pre Requisites: Pre-req: IT 110 or MSIS 110 and IT/MSIS 230L or MSIS 411
+
+Data mining: This course provides a set of techniques that explore large quantities of data to discover meaningful patterns and make predictions. Students will learn the appropriate use of several data mining methods based on unsupervised algorithms such as cluster analysis and association rules, and those based on supervised algorithms such as decision trees and neural networks. Students will gain experience with applications of data mining using current data mining software.
+Pre Requisites: pre-req IT 110 OR MSIS 110 AND one of the following: MSIS/IT 111L or MATH 125 or ECON 205 or PSYCH 370 or SOCIOL 350.
+
+Take two of the following elective courses:
+IT 360 Enterprise Software
+This course focuses on use of collaborative technologies and business applications to demonstrate the work of virtual teams and how they implement their operations.
+Pre Requisites: IT 110 or MSIS 110 and 60 credits
+IT-428L Information System security
+This course provides a broad overview of the threats to the security of information systems, the responsibilities and basic tools to ensure information security, and the levels of training and expertise needed in organizations to reach and maintain a state of acceptable security.
+Pre Requisites: Prerequsite = IT 110 and 60 credits
+IT-456 Storage Management
+This course focuses on review of basic relational database concepts and application of these concepts to solve problems.
+Pre Requisites: Pre-requisites: IT 110 OR MSIS 110 AND MSIS 230 or IT 230 OR MSIS 411
+
+IT 460 Integration Methodologies and tools
+This course focuses on developing an understanding of applications architecture. Students will be using  several tools to exemplify the use of heterogeneous reusable modules to fulfill an information service
+Pre Requisites: Prerequsite = IT 110 and 60 credits
+IT 461L System analysis and design
+This course focuses  systems development methodologies and also includes practical experience in analyzing and designing an organizational application. It discusses the concept of quality as applied to information systems and business process redesign as well as the role of information systems in managing quality within an organization
+
+Pre Requisites: Prerequsite = IT 110 and 60 credits
+
+Professors:
+Wei Zhang, PhD
+Associate Professor of Management Information Systems
+Contact information:
+•	Phone: 617.287.3946
+•	Email: wei.zhang@umb.edu
+•	Office Location: M-5-247
+DBA, Boston University, School of Management
+ME, Renmin University of China, Institute of Information
+BE, University of Science and Technology of China
+Courses Taught
+Undergraduate: Database Management Systems, Data Communication and Computer Networks, Introduction to MIS, Knowledge Management
+Graduate: Introduction to MIS, Knowledge Management, Business Data Communications & Computer Networks
+
+Glenn Hoffman:  Lecturer and Undergraduate Program Director of Information technology. Some of the courses taught : IT-116, IT-244,
+Contact information :
+Phone: 617-287-7472
+Email: glenhoffman@mac.com
+
+Amanda Postaznik: Lecturer of Computer Science, College of Science and Mathematics
+Contact
+•	Phone: 617.287.6490
+•	Email: potasznik@cs.umb.edu
+•	Office Location: Science Center, 3rd Floor, Room 130
+
+Noushin Ashrafi, PhD
+Professor of Management Information Systems
+•	Phone: 617.287.7883
+•	Email: Noushin.Ashrafi@umb.edu
+•	Office Location: M-5-252
+Area of expertise: Object Oriented System Analysis and Design, Business Analytics, Health Informatics, Privacy and Security in digital age.
+Degrees: PhD, University of Texas
+MBA, University of Texas
+BA, SUNY
+
+Pre-requisite courses for the students who are in IT track
+•	IT 110  Information Technology Problem Solving +
+•	IT 111L  Managerial Statistics +
+•	IT 114L  Introduction To Java +
+•	IT 115L  Introduction to Java Part 2 +
+•	IT 116  Introduction to Scripting +
+•	IT 117  Intermediate Scripting +
+•	IT 187SL  Science Gateway Seminar I +
+•	IT 188SL  Science Gateway Seminar II +
+•	IT 210L  Intermediate Computing with Data Structures +
+
+•	IT 230L  Relational Databases +
+•	IT 240  Web Fluency +
+•	IT 244  Introduction to Linux/Unix +
+•	IT 246  Introduction to Networks +
+•	IT 285L  Social Issues and Ethics in Computing +
+
+Professional Electives:
+Two of the following elective courses:
+IT 360        Enterprise Software 
+IT 428L      Information System Security 
+IT 456        Storage Management 
+IT 460        Integration Methodologies and Tools 
+IT 461L      Systems Analysis and Design 
+
+MSIS 422   Decision Support Systems 
+MSIS 426   E-Business and E-Commerce 
+MSIS 427   Knowledge Management 
+
+
+ IT capstone courses
+IT425: Project Management 
+IT485: Information Technology Capstone 
+
+Advising for college of management:
+CM Students with 60+ Credits
+Mara Gould
+Mara works with declared concentrators for general academic advising purposes. She also works with the Management LEAD program; both advising students in the program and working with the Peer LEADers.
+Becca Meaney
+Mara works with declared concentrators for general academic advising purposes. She also works with the Management LEAD program; both advising students in the program and working with the Peer LEADers.
+
+
+Lizzy Cantor
+Lizzy works with declared concentrators for general academic advising purposes. She also coordinates the Management Achievement Program (MAP) and works with the College of Management student groups and leadership opportunities.
+Ben McNamee
+Ben works with declared concentrators for general academic advising purposes. He also coordinates the Management TRAIL program, a learning community for transfer students in their first semester at UMass Boston and conducts Intercollege Transfer workshops for new students from within the university.
+CM students with less than 60 credits
+Caitlin Sullivan
+Kori Lantas
+Fatmata Jah
+College-connected advisors are located in Suite 1100 of the Campus Center. Call 617.287.5500.
+
+
+Students Success Center (SSC):
+SSC supports (College of Science and Mathematics) CSM undergraduate  students through professional advising, access to academic and career development resources and programming and connections to opportunities for learning and development beyond the classroom.
+Advisors at student success center:
+Trish Drew:
+Pre-medical and allied health , biology
+Tory Fahey
+Biology
+Janine Bradley
+Biochemistry, Chemistry, Computer Science, Engineering, Information Technology, Mathematics, Physics
+
+Student Success Center
+Science Center, 2nd Floor, Room 60
+Email: studentsuccess@umb.edu
+Phone: 617.287.4846
+
+
+
+University Advising center:
+Office Location and Hours of Operation
+University Advising Center
+Campus Center 1st Floor, Room 1100
+University of Massachusetts Boston
+100 Morrissey Blvd. Boston, MA
+02125-3393
+
+Phone: 617.287.5500
+Fax: 617.287.5568
+
+Office Hours
+Monday–Friday: 8:30 a.m.–5 p.m.
+
+
+
