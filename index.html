@@ -3,26 +3,32 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>BSIT CSM</title>
-	<link rel="shortcut icon" href="../images/logo.ico">
-	<link rel="stylesheet" href="../styles/normalize.css">
-	<link rel="stylesheet" href="../styles/speaker.css">
+	<title>San Joaquin Valley Town Hall</title>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<script>
+    function cssSwap(url){
+        var stylesheet = document.getElementById("stylesheet");
+        stylesheet.setAttribute('href', url);
+        }
+    
+    </script>
+    <link id="stylesheet" rel="stylesheet" href="styles/main.css"/>
 </head>
 
 <body>
 	<header>
-		<img src="../images/main%20site%20logo.gif" alt="Main Site logo" height="80">
+		<img src=" images/main%20site%20logo.gif" alt="Main Site logo" height="80">
 		<h2>Umass BSIT</h2>
 		<h3>Welcome!</h3>
 	</header>
 	<nav id="nav_menu">
     	<ul>
-        	<li class="active"><a href="../index.html">Home</a></li>
+        	<li class="active"><a href="index.html">Home</a></li>
         	<li><a href="Professors.html">Professors</a></li>
         	<li><a href="Careers.html">Careers</a></li>
-            <li><a href="about.html"> About</a>
-            <li><a href="Classes.html">Classes</a></li>
-            <li><a href="DarkTheme.html">Dark Theme</a>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="Classes.html">Classes</a>
             	<ul>
                 	<li><a href="DarkTheme.html">Dark Theme</a>
                 	<li><a href="#">Board of Directors</a></li>
@@ -30,9 +36,11 @@
                 	<li><a href="#">Contact Information</a></li>
             	</ul>
         	</li>
-    	</ul>
+        </ul>
 	</nav>
 	<main>
+        <a onclick="cssSwap('styles/main.css')" href="#">Light</a>
+        <a onclick="cssSwap('styles/dark.css')" href="#">Dark</a>
 		<section>
 			<h1>Information Technology Major</h1>
 			<article>
