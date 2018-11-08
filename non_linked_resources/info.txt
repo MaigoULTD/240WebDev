@@ -101,8 +101,7 @@ Associate Professor of Management Information Systems
 Contact information:
 •	Phone: 617.287.3946
 •	Email: wei.zhang@umb.edu
-•	Office Location: McCormack Hall, 5-247
-Degrees:
+•	Office Location: M-5-247
 DBA, Boston University, School of Management
 ME, Renmin University of China, Institute of Information
 BE, University of Science and Technology of China
@@ -110,26 +109,16 @@ Courses Taught
 Undergraduate: Database Management Systems, Data Communication and Computer Networks, Introduction to MIS, Knowledge Management
 Graduate: Introduction to MIS, Knowledge Management, Business Data Communications & Computer Networks
 
-Glenn Hoffman,  
-Lecturer and Undergraduate Program Director of Information technology. 
+Glenn Hoffman:  Lecturer and Undergraduate Program Director of Information technology. Some of the courses taught : IT-116, IT-244,
 Contact information :
-• Phone: 617-287-7472
-• Email: ghoffman@cs.umb.edu
-• Office Location: Science Center, 3-92A 
-Degrees: 
-MS, Computer Science, University of Massachusetts-Boston
-BS, Computer Science, University of Massachusetts-Boston
-Some of the courses taught : 116: Introduction to Scripting,117:Intermediate Scripting, 244:Introduction to Linux/Unix
-
+Phone: 617-287-7472
+Email: glenhoffman@mac.com
 
 Amanda Postaznik: Lecturer of Computer Science, College of Science and Mathematics
 Contact
 •	Phone: 617.287.6490
 •	Email: potasznik@cs.umb.edu
-•	Office Location: Science Center, 3-130
-Degrees:
-
-The course taught in BSIT: IT 285L - Social Issues and Ethics in Computing
+•	Office Location: Science Center, 3rd Floor, Room 130
 
 Noushin Ashrafi, PhD
 Professor of Management Information Systems
@@ -137,11 +126,9 @@ Professor of Management Information Systems
 •	Email: Noushin.Ashrafi@umb.edu
 •	Office Location: M-5-252
 Area of expertise: Object Oriented System Analysis and Design, Business Analytics, Health Informatics, Privacy and Security in digital age.
-Degrees: 
-PhD, University of Texas
+Degrees: PhD, University of Texas
 MBA, University of Texas
 BA, SUNY
-Courses taught: Production/Operations Management, Management Science Models, Managerial Statistics, Management Information Systems, Decision Support Systems, MBA Mathematics, IS Project Management, System Analysis and Design. Enterprise Business Intelligence, Healthcare Informatics
 
 Pre-requisite courses for the students who are in IT track
 •	IT 110  Information Technology Problem Solving +

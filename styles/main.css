@@ -5,7 +5,7 @@
 	padding: 0;
 }
 html {
-	background-color: white;
+	background-color: floralwhite;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +19,7 @@ body {
 header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid black;
-    background-image: url(../images/darkheaderbak.jpg);
+    background-image: url(../images/lightheader.jpg);
 }
 header h2 {
 	font-size: 175%;
@@ -64,10 +64,6 @@ header img {
 
 li a:hover:not(.active) {
     background-color: darkgrey;
-}
-
-.stylesheet{
-    float:right;
 }
 
 .active{
