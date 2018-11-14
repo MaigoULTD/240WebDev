@@ -18,8 +18,7 @@ body {
 /* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid black;
-    background-image: url(../images/lightheader.jpg);
+    background-image: url(../images/daytime.png);
 }
 header h2 {
 	font-size: 175%;
@@ -38,32 +37,43 @@ header img {
 	text-shadow: 2px 2px 2px #0000FF;
 }
 /* the styles for the navigation menu */
-#nav_menu ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
-    overflow: hidden;
     background-color: midnightblue;
     
 }
-#nav_menu li {
-    float: left;
+nav li {
+    display: inline-block;
+    position: relative;
 }
-#nav_menu li a {
+nav li>a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-#nav_menu ul ul {
-    display: none;
-    position: fixed;
-    top: 100%;
-    width: auto;
-}
-
 li a:hover:not(.active) {
     background-color: darkgrey;
+}
+
+
+nav ul li ul {
+    display:none;
+    position: absolute;
+}
+
+nav ul li:hover ul{
+    display:block;
+    box-shadow: 1px 1px 1px 1px;
+    border-bottom-left-radius: 25px;
+}
+
+.lastnav a:hover{
+    background-color: darkgrey;
+    border-bottom-left-radius: 25px;
+    
 }
 
 .active{
@@ -76,9 +86,10 @@ main {
 
 /* the styles for the section */
 section {
-    width: 400px;
-	padding: 0  20px 10px;
-    padding-top: 20px
+    width: 300px;
+    float:left;
+    padding-top: 20px;
+    display: block;
 }
 section h1 {
 	color: goldenrod;
@@ -86,20 +97,9 @@ section h1 {
 	padding-top: .5em;
 	margin: 0;
 }
-section p {
-	padding-bottom: .5em;
+section img {
+    border: 3px solid midnightblue;
 }
-section blockquote {
-	padding: 0 2em;
-	font-style: italic;
-}
-section ul {
-	padding: 0 0 .25em 1.25em;
-}
-section li {
-	padding-bottom: .35em;
-}
-
 /* the styles for the article */
 article {
     width: 700x;
@@ -129,7 +129,6 @@ article figcaption {
 /* the styles for the aside */
 aside {
 	width: auto;
-	float: right;
 	padding: 0  20px 20px;
      
 }
