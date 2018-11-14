@@ -10,10 +10,8 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    color: floralwhite;
     width: 0 auto;
-    margin: 0 auto;
-    
+    margin: 0 auto;111
     background-color: #2e3033;
 }
 /* the styles for the header */
@@ -73,13 +71,14 @@ li a:hover:not(.active) {
 /* the styles for the main content */
 main {
 	clear: left;
+    color: snow
 }
 
 /* the styles for the section */
 section {
-	width: auto;
-	float:right;
-	padding: 0 2px 2px 2px;
+    width: 400px;
+	padding: 0  20px 10px;
+    padding-top: 20px
 }
 section h1 {
 	color: goldenrod;
@@ -103,7 +102,9 @@ section li {
 
 /* the styles for the article */
 article {
-	padding: .5em 15em;
+    width: 700x;
+    float: right
+	padding: .5em 23em;
 }
 article h2 {
 	font-size: 115%;
@@ -128,8 +129,9 @@ article figcaption {
 /* the styles for the aside */
 aside {
 	width: auto;
-	float: left;
-	padding: 0 0 20px 20px;
+	float: right;
+	padding: 0  20px 20px;
+     
 }
 aside h2 {
 	color: goldenrod;
@@ -142,7 +144,7 @@ aside h3 {
 	padding-bottom: .25em;
 }
 aside img {
-	padding-bottom: 1em;
+    border: 1px solid black;
 }
 
 /* the styles for the footer */

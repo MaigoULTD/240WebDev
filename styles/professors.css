@@ -76,7 +76,9 @@ main {
 
 /* the styles for the section */
 section {
-	padding: 0 0px 0px 0px;
+    width: 400px;
+	padding: 0  20px 10px;
+    padding-top: 20px
 }
 section h1 {
 	color: goldenrod;
@@ -100,6 +102,8 @@ section li {
 
 /* the styles for the article */
 article {
+    width: 700x;
+    float: right
 	padding: .5em 23em;
 }
 article h2 {
@@ -125,8 +129,9 @@ article figcaption {
 /* the styles for the aside */
 aside {
 	width: auto;
-	float: left;
-	padding: 0 0 20px 20px;
+	float: right;
+	padding: 0  20px 20px;
+     
 }
 aside h2 {
 	color: goldenrod;
@@ -139,8 +144,7 @@ aside h3 {
 	padding-bottom: .25em;
 }
 aside img {
-	padding-bottom: 1em;
-    padding-top: 1em;
+    border: 1px solid black;
 }
 
 /* the styles for the footer */
