@@ -5,7 +5,7 @@
 	padding: 0;
 }
 html {
-	background-color: floralwhite;
+	background-color: snow;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +13,7 @@ body {
     width: 0 auto;
     margin: 0 auto;
     
-    background-color: white;
+    background-color: snow;
 }
 /* the styles for the header */
 header {
@@ -23,12 +23,12 @@ header {
     background-size:cover;
 }
 header h2 {
-	color: midnightblue;
+	color: snow;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-    color: goldenrod;
+    color: snow;
 }
 header img {
 	float: left;
@@ -49,7 +49,7 @@ nav li {
     position: relative;
 }
 nav li>a {
-    display: inline-block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -59,20 +59,21 @@ li a:hover:not(.active) {
     background-color: darkgrey;
 }
 
+
 nav ul li ul {
-    display: none;
+    display:none;
     position: absolute;
-    top: 100%;
-    overflow: visible;
-    padding:0;
 }
 
 nav ul li:hover ul{
-    display:inline-block;
-    position:absolute;
-    left: 0;
-    width:100%;
-    z-index:1;
+    display:block;
+    box-shadow: 1px 1px 1px 1px;
+    border-bottom-left-radius: 25px;
+}
+
+.lastnav a:hover{
+    background-color: darkgrey;
+    border-bottom-left-radius: 25px;
     
 }
 
@@ -87,14 +88,18 @@ main {
 /* the styles for the section */
 section {
 	width: auto;
-	float: right;
+	float:left;
 	padding: 0 20px 20px 20px;
+    
 }
 section h1 {
-	color: goldenrod;
+	color: midnightblue;
+    text-align: center;
+    background-color:snow;
 	font-size: 150%;
-	padding-top: .5em;
 	margin: 0;
+    border-radius: 10px;
+    border: 5px solid midnightblue;
 }
 section p {
 	padding-bottom: .5em;
@@ -126,6 +131,7 @@ article p{
 article h2 {
 	font-size: 200%;
     color:midnightblue;
+    text-align: center;
 }
 article img {
 	float: right;
@@ -141,6 +147,27 @@ article figcaption {
 	font-weight: bold;
 	padding-top: .5em;
 	border-bottom: 1px solid black;
+}
+
+.news{
+    display:block;
+}
+.news img{
+    float:left;
+    margin-right: .5em;
+}
+.news h3{
+    text-align: left;
+    margin-left: 1em;
+}
+.news p{
+    text-align: left;
+    
+}
+.news a{
+    font-style:italic;
+    text-decoration: none;
+    color:goldenrod;
 }
 
 /* the styles for the aside */
@@ -171,6 +198,6 @@ footer {
 }
 footer p {
 	text-align: center;
-	color: floralwhite;
+	color: snow;
 	padding: 1em 0;
 }

@@ -1,15 +1,15 @@
+
 /* the styles for the elements */
 * {
 	margin: 0;
 	padding: 0;
 }
 html {
-	background-color:#2e3033;
+	background-color: #2e3033;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    color:floralwhite;
     width: 0 auto;
     margin: 0 auto;
     
@@ -18,14 +18,12 @@ body {
 /* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid black;
-    background:url(../images/nightime.png);
+    background: url(../images/nightime.png);
     background-repeat: no-repeat;
     background-size:cover;
 }
 header h2 {
-	font-size: 175%;
-	color: gold;
+	color: goldenrod;
 }
 header h3 {
 	font-size: 130%;
@@ -40,38 +38,48 @@ header img {
 	text-shadow: 2px 2px 2px #0000FF;
 }
 /* the styles for the navigation menu */
-#nav_menu ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
-    overflow: hidden;
     background-color: midnightblue;
     
 }
-#nav_menu li {
-    float: left;
+nav li {
+    display: inline-block;
+    position: relative;
 }
-#nav_menu li a {
+nav li>a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-#nav_menu ul ul {
-    display: none;
-    position: fixed;
-    top: 100%;
-    width: auto;
-}
-
 li a:hover:not(.active) {
     background-color: darkgrey;
 }
+
+
+nav ul li ul {
+    display:none;
+    position: absolute;
+}
+
+nav ul li:hover ul{
+    display:block;
+    box-shadow: 1px 1px 1px 1px;
+    border-bottom-left-radius: 25px;
+}
+
+.lastnav a:hover{
+    background-color: darkgrey;
+    border-bottom-left-radius: 25px;
+    
+}
+
 .active{
     background-color:goldenrod;
 }
-
-
 /* the styles for the main content */
 main {
 	clear: left;
@@ -80,14 +88,19 @@ main {
 /* the styles for the section */
 section {
 	width: auto;
-	float: right;
+	float:left;
 	padding: 0 20px 20px 20px;
+    color:snow;
+    
 }
 section h1 {
 	color: goldenrod;
+    text-align: center;
+    background-color:#2e3033;
 	font-size: 150%;
-	padding-top: .5em;
 	margin: 0;
+    border-radius: 10px;
+    border: 5px solid snow;
 }
 section p {
 	padding-bottom: .5em;
@@ -105,6 +118,7 @@ section li {
 
 /* the styles for the article */
 article {
+    color:snow;
 	padding: .5em 0;
 }
 
@@ -118,7 +132,8 @@ article p{
 }
 article h2 {
 	font-size: 200%;
-    color:floralwhite;
+    color:goldenrod;
+    text-align: center;
 }
 article img {
 	float: right;
@@ -134,6 +149,27 @@ article figcaption {
 	font-weight: bold;
 	padding-top: .5em;
 	border-bottom: 1px solid black;
+}
+
+.news{
+    display:block;
+}
+.news img{
+    float:left;
+    margin-right: .5em;
+}
+.news h3{
+    text-align: left;
+    margin-left: 1em;
+}
+.news p{
+    text-align: left;
+    
+}
+.news a{
+    font-style:italic;
+    text-decoration: none;
+    color:goldenrod;
 }
 
 /* the styles for the aside */
@@ -164,6 +200,6 @@ footer {
 }
 footer p {
 	text-align: center;
-	color: floralwhite;
+	color: snow;
 	padding: 1em 0;
 }
