@@ -18,12 +18,12 @@ body {
 /* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid black;
-    background-image: url(../images/lightheader.jpg);
+    background: url(../images/daytime.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 header h2 {
-	font-size: 175%;
-	color: gold;
+	color: midnightblue;
 }
 header h3 {
 	font-size: 130%;
@@ -38,32 +38,42 @@ header img {
 	text-shadow: 2px 2px 2px #0000FF;
 }
 /* the styles for the navigation menu */
-#nav_menu ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
-    overflow: hidden;
     background-color: midnightblue;
     
 }
-#nav_menu li {
-    float: left;
+nav li {
+    display: inline-block;
+    position: relative;
 }
-#nav_menu li a {
-    display: block;
+nav li>a {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-#nav_menu ul ul {
-    display: none;
-    position: fixed;
-    top: 100%;
-    width: auto;
-}
-
 li a:hover:not(.active) {
     background-color: darkgrey;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    overflow: visible;
+    padding:0;
+}
+
+nav ul li:hover ul{
+    display:inline-block;
+    position:absolute;
+    left: 0;
+    width:100%;
+    z-index:1;
+    
 }
 
 .active{
@@ -104,18 +114,27 @@ section li {
 article {
 	padding: .5em 0;
 }
+
+article p{
+    text-align: left;
+    padding:1em;
+    font-family: sans-serif;
+    line-height: 1.5;
+    
+    
+}
 article h2 {
-	font-size: 115%;
-	padding: 0 0 .25em 0;
+	font-size: 200%;
+    color:midnightblue;
 }
 article img {
 	float: right;
 	margin: .5em 0 1em 1em;
-	border: 1px solid black;
+	border: 3px solid midnightblue;
 }
 article figure {
 	float: right;
-	margin: .5em 0 1em 1em;
+	margin: .5em;
 }
 article figcaption {
 	display: block;

@@ -19,7 +19,9 @@ body {
 header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid black;
-    background-image: url(../images/darkheader.jpg)
+    background:url(../images/nightime.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 header h2 {
 	font-size: 175%;
@@ -105,18 +107,27 @@ section li {
 article {
 	padding: .5em 0;
 }
+
+article p{
+    text-align: left;
+    padding:1em;
+    font-family: sans-serif;
+    line-height: 1.5;
+    
+    
+}
 article h2 {
-	font-size: 115%;
-	padding: 0 0 .25em 0;
+	font-size: 200%;
+    color:floralwhite;
 }
 article img {
 	float: right;
 	margin: .5em 0 1em 1em;
-	border: 1px solid black;
+	border: 3px solid goldenrod;
 }
 article figure {
 	float: right;
-	margin: .5em 0 1em 1em;
+	margin: .5em;
 }
 article figcaption {
 	display: block;
