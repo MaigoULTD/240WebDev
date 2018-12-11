@@ -7,6 +7,7 @@
 	<title>BSIT @ CM UMass Boston</title>
 	<link rel="shortcut icon" href="images/logo.ico">
 	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
 	<script>
     function cssSwap(url){
         var stylesheet = document.getElementById("stylesheet");
@@ -23,41 +24,44 @@
 		<h2>Umass BSIT</h2>
 		<h3>Welcome!</h3>
 	</header>
-	<nav id="nav_menu">
+	<nav>
     	<ul>
         	<li><a href="../index.html">Home</a></li>
-        	<li class="active"><a href="../Professors.html">Professors</a></li>
-        	<li><a href="Careers.html">Careers</a></li>
-            <li><a href="about.html"> About</a></li>
-            <li><a href="Classes.html">Classes</a>
-            	<ul>
-                	<li><a href="DarkTheme.html">Dark Theme</a>
-                	<li><a href="#">Board of Directors</a></li>
-                	<li><a href="#">Past Speakers</a></li>
-                	<li><a href="#">Contact Information</a></li>
+        	<li><a href="../Professors.html">Professors</a></li>
+        	<li><a href="../Careers.html">Careers</a></li>
+            <li><a href="../tracks.html"> Tracks</a>
+                <ul>
+                	<li><a href="#">Systems Administration</a></li>
+                	<li><a href="#">Business Intelligence</a></li>
+                    <li><a href="#"> Information Architecture </a></li>
+                	<li class="lastnav"><a href="#">Cyber Forensics </a></li>
             	</ul>
+            <li><a href="Classes.html">Classes</a>
+            </li>
             <!-- Had to add the styles inline here bc the classes wouldnt work for some reason :P -->
-            <li style=float:right;><a onclick="cssSwap('../styles/professors.css')" href="#">Light</a></li>
-            <li style=float:right;><a onclick="cssSwap('../styles/professorsdark.css')" href="#">Dark</a></li>
+             <li style=float:right;><a  i class="fa fa-sun-o" aria-hidden="true" onclick="cssSwap('../styles/professors.css')" href="#"></a></li>
+            <li style=float:right;><a  i class="fa fa-moon-o" aria-hidden="true" onclick="cssSwap('../styles/professorsdark.css')" href="#"></a></li>
         </ul>
 	</nav>
 	<main>
-		<aside>
-			<h1>Glenn Hoffman</h1>
-			
-				<h2>Lecturer and Undergraduate Program Director of Information technology</h2>
-                <br><br>
-				<li>Phone: 617-287-7472</li>
-                <br><br>
-                <li>Email: glenhoffman@mac.com</li>
-                <br><br>
-                <li>Some of the courses taught : IT-116, It-117, IT-244</li> 
-  
-        </aside>
         <section>
-                <img src="../images/Glenn_Hoffman.jpg" alt="bsitmajor">
+                <img src="../images/Glenn_Hoffman.jpg" alt="hoffman">
         </section>
-	</main>
+		<aside>
+            <br>
+			<h1>Glenn Hoffman</h1>
+          
+				<h2>Lecturer and Undergraduate Program Director of Information Technology</h2>
+                <br><br>
+                <p>Phone: 617-287-7472</p>
+                <br><br>
+                <p>Email: glenhoffman "at" mac.com</p>
+                <br><br>
+                <p>Some of the courses taught : IT-116, It-117, IT-244</p> 
+                <br>
+ 
+        </aside>
+    </main>
 	<footer>
 		<p>&copy; 2018 University of Massachusetts Boston 100 William T. Morrissey Blvd. Boston, MA 02125-3393</p>
 	</footer>

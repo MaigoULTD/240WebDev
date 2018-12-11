@@ -7,6 +7,7 @@
 	<title>BSIT @ CM UMass Boston</title>
 	<link rel="shortcut icon" href="images/logo.ico">
 	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 	<script>
     function cssSwap(url){
         var stylesheet = document.getElementById("stylesheet");
@@ -38,8 +39,8 @@
             <li><a href="Classes.html">Classes</a>
             </li>
             <!-- Had to add the styles inline here bc the classes wouldnt work for some reason :P -->
-            <li style=float:right;><a onclick="cssSwap('../styles/main.css')" href="#">Light</a></li>
-            <li style=float:right;><a onclick="cssSwap('../styles/dark.css')" href="#">Dark</a></li>
+            <li style=float:right;><a  i class="fa fa-sun-o" aria-hidden="true" onclick="cssSwap('styles/main.css')" href="#"></a></li>
+            <li style=float:right;><a  i class="fa fa-moon-o" aria-hidden="true" onclick="cssSwap('styles/dark.css')" href="#"></a></li>
         </ul>
 	</nav>
 	<main>

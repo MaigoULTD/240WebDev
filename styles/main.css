@@ -59,7 +59,6 @@ li a:hover:not(.active) {
     background-color: darkgrey;
 }
 
-
 nav ul li ul {
     display:none;
     position: absolute;
@@ -201,3 +200,6 @@ footer p {
 	color: snow;
 	padding: 1em 0;
 }
+
+/* Styles for div used in Tracks */
+

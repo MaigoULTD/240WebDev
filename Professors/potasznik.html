@@ -7,6 +7,7 @@
 	<title>BSIT @ CM UMass Boston</title>
 	<link rel="shortcut icon" href="images/logo.ico">
 	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
 	<script>
     function cssSwap(url){
         var stylesheet = document.getElementById("stylesheet");
@@ -23,44 +24,44 @@
 		<h2>Umass BSIT</h2>
 		<h3>Welcome!</h3>
 	</header>
-	<nav id="nav_menu">
+	<nav>
     	<ul>
         	<li><a href="../index.html">Home</a></li>
-        	<li class="active"><a href="../Professors.html">Professors</a></li>
-        	<li><a href="Careers.html">Careers</a></li>
-            <li><a href="about.html"> About</a></li>
-            <li><a href="Classes.html">Classes</a>
-            	<ul>
-                	<li><a href="DarkTheme.html">Dark Theme</a>
-                	<li><a href="#">Board of Directors</a></li>
-                	<li><a href="#">Past Speakers</a></li>
-                	<li><a href="#">Contact Information</a></li>
+        	<li><a href="../Professors.html">Professors</a></li>
+        	<li><a href="../Careers.html">Careers</a></li>
+            <li><a href="../tracks.html"> Tracks</a>
+                <ul>
+                	<li><a href="#">Systems Administration</a></li>
+                	<li><a href="#">Business Intelligence</a></li>
+                    <li><a href="#"> Information Architecture </a></li>
+                	<li class="lastnav"><a href="#">Cyber Forensics </a></li>
             	</ul>
+            <li><a href="Classes.html">Classes</a>
+            </li>
             <!-- Had to add the styles inline here bc the classes wouldnt work for some reason :P -->
-            <li style=float:right;><a onclick="cssSwap('../styles/professors.css')" href="#">Light</a></li>
-            <li style=float:right;><a onclick="cssSwap('../styles/professorsdark.css')" href="#">Dark</a></li>
+             <li style=float:right;><a  i class="fa fa-sun-o" aria-hidden="true" onclick="cssSwap('../styles/professors.css')" href="#"></a></li>
+            <li style=float:right;><a  i class="fa fa-moon-o" aria-hidden="true" onclick="cssSwap('../styles/professorsdark.css')" href="#"></a></li>
         </ul>
 	</nav>
 	<main>
+        <section>
+                <img src="../images/Amanda_Potasznik.png" alt="potasznik">
+        </section>
 		<aside>
-			
+            <br>
 			<h1>Amanda Potasznik</h1>
-		
+          
 				<h2>Lecturer of Computer Science, College of Science and Mathematics</h2>
                 <br><br>
-				<li>Phone: 617.287.6490</li>
+                <p>Phone: 617.287.6490</p>
                 <br><br>
-                <li>Email: potasznik@cs.umb.edu</li>
+                <p>Email: potasznik "at" cs.umb.edu</p>
                 <br><br>
-                <li>Office Location: Science Center, 3rd Floor, Room 130</li> 
-
-            
+                <p>ffice Location: Science Center, 3rd Floor, Room 130</p> 
+                <br>
+ 
         </aside>
-        <section>
-                <img src="../images/Amanda_Potasznik.png" alt="bsitmajor">
-        </section>
-		
-	</main>
+    </main>
 	<footer>
 		<p>&copy; 2018 University of Massachusetts Boston 100 William T. Morrissey Blvd. Boston, MA 02125-3393</p>
 	</footer>
