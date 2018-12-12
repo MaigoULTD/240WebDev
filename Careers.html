@@ -7,6 +7,7 @@
 	<title>BSIT @ CM UMass Boston</title>
 	<link rel="shortcut icon" href="images/logo.ico">
 	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 	<script>
     function cssSwap(url){
         var stylesheet = document.getElementById("stylesheet");
@@ -26,34 +27,44 @@
 	<nav>
     	<ul>
         	<li><a href="index.html">Home</a></li>
-        	<li class="active"><a href="Professors.html">Professors</a></li>
-        	<li><a href="Careers.html">Careers</a></li>
+        	<li><a href="Professors.html">Professors</a></li>
+        	<li class="active"><a href="Careers.html">Careers</a></li>
             <li><a href="tracks.html"> Tracks</a>
                 <ul>
-                	<li><a href="#">Systems Administration</a></li>
-                	<li><a href="#">Business Intelligence</a></li>
-                    <li><a href="#"> Information Architecture </a></li>
-                	<li class="lastnav"><a href="#">Cyber Forensics </a></li>
+                	<li><a href="Tracks/Systems_Administration.html">Systems Administration</a></li>
+                	<li><a href="Tracks/Business_Intelligence.html">Business Intelligence</a></li>
+                    <li><a href="Tracks/Information_Architecture.html"> Information Architecture </a></li>
+                	<li class="lastnav"><a href="Tracks/Cyber_Forensics.html">Cyber Forensics </a></li>
             	</ul>
             <li><a href="Classes.html">Classes</a>
             </li>
             <!-- Had to add the styles inline here bc the classes wouldnt work for some reason :P -->
-            <li style=float:right;><a onclick="cssSwap('../styles/main.css')" href="#">Light</a></li>
-            <li style=float:right;><a onclick="cssSwap('../styles/dark.css')" href="#">Dark</a></li>
+            <li style=float:right;><a  i class="fa fa-sun-o" aria-hidden="true" onclick="cssSwap('styles/main.css')" href="#"></a></li>
+            <li style=float:right;><a  i class="fa fa-moon-o" aria-hidden="true" onclick="cssSwap('styles/dark.css')" href="#"></a>
         </ul>
 	</nav>
 	<main>
-			<center><h1>Faculty &amp; staff</h1></center>
+			<center><h1>Careers</h1></center>
 			
-				<center><h4><br>Management Science &amp; Information Systems<br><a href="Professors/Zhangwei.html">Wei Zhang</a>
-                <br><br><a href="Professors/ashrafi.html">Noushin Ashrafi</a><br><br>
-                </h4>
-                <h4><br>Computer Science<br><a href="Professors/potasznik.html">Amanda Potasznik</a>
-                </h4>
+				<center><h2>Tracks &amp; Careers<br><br>
+                Systems Administrator</h2>
+                <br>
+                Typical Salary<br>
+                Common salary in US: $76,891 yearly<br>
+                Typical salaries range from $50,304 - $117,530 yearly
+                
+                <br><br><h2>Business Intelligence<br></h2>
+                Typical Salary<br>
+                Common salary in US: $84,037 yearly<br>
+                Typical salaries range from $58,914 - $119,874 yearly
+                    
+                <h2><br>Information Architecture<br></h2>
+                The national average salary for a Information Architect is $107,374 in United States.<br>
+                Typical salaries range from $68,000 - $129,000 yearly
+                <br>
         
-                <br><br>
-        
-                <h4><br>Information Technology<br><a href="Professors/GHoffman.html">Glenn Hoffman</a></h4>
+                <h2><br>Cyber Forensics<br></h2>
+                The average salary for "computer forensics" ranges from approximately $56,392 per year for Examiner<br> to $113,851 per year for IT Security Specialist
                 
 				<br> <br>
                 </center>
