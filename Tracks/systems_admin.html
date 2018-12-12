@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Begin things that are code? idk. -->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>BSIT @ CM UMass Boston</title>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
+	<script>
+    function cssSwap(url){
+        var stylesheet = document.getElementById("stylesheet");
+        stylesheet.setAttribute('href', url);
+        }
+    
+    </script>
+    <link id="stylesheet" rel="stylesheet" href="../styles/professors.css"/>
+</head>
+
+<body>
+	<header>
+		<img src=" ../images/main%20site%20logo.gif" alt="Main Site logo" height="80">
+		<h2>Umass BSIT</h2>
+		<h3>Welcome!</h3>
+	</header>
+	<nav>
+    	<ul>
+        	<li><a href="../index.html">Home</a></li>
+        	<li><a href="../Professors.html">Professors</a></li>
+        	<li><a href="../Careers.html">Careers</a></li>
+            <li><a href="../tracks.html"> Tracks</a>
+                <ul>
+                	<li><a href="/Tracks/systems_admin.html">Systems Administration</a></li>
+                	<li><a href="/Tracks/Business_Intelligence.html">Business Intelligence</a></li>
+                    <li><a href="/Tracks/Information_Architecture.html"> Information Architecture </a></li>
+                	<li class="lastnav"><a href="/Tracks/Cyber_Forensics.html">Cyber Forensics </a></li>
+            	</ul>
+            <li><a href="../Classes.html">Classes</a>
+            </li>
+            <!-- Had to add the styles inline here bc the classes wouldnt work for some reason :P -->
+            <li style=float:right;><a  i class="fa fa-sun-o" aria-hidden="true" onclick="cssSwap('../styles/professors.css')" href="#"></a></li>
+            <li style=float:right;><a  i class="fa fa-moon-o" aria-hidden="true" onclick="cssSwap('../styles/professorsdark.css')" href="#"></a></li>
+        </ul>
+	</nav>
+	<main>
+        <section>
+                <img src="../images/IT-SAS-720-480.jpg" alt="System Administration" width="90%">
+        </section>
+		<aside>
+            <br>
+            <center>
+			<h1>Systems Administrator</h1>
+                <br><br><br>
+                <p>
+                    System Administrators focuses on the deployment and maintenance of computer systems and networks. The system administration track concerns issues related to the selection, installation, configuration and maintenance of Linux- and Windows-based systems (including shell programming and scripting, heterogeneous systems, remote management, the legal issues of system administration, as well as the design and implementation of policies and automated administration regimes) and Internet-working environments. As organizations keep investing in their information systems, talents are needed to help design, deploy, manage, and safeguard these systems.
+                    <br><br>
+                    <h1>Four required courses:</h1>
+                    <br><br>
+                    <h2>IT 341 Introduction to system administration</h2>
+                    <br>
+                    This is an introduction to the process of choosing, installing, configuring, and maintaining UNIX operating systems such as Linux.
+                    Pre-requisite = IT 244
+                    <br><br>
+                    <h2>IT 441 Network Services Administration</h2>
+                    <br>
+                    This course includes scripting, heterogeneous networks, remote management, the legal issues of network administration, and introduction to network security, and the design and implementation of policy. Students are also introduced to issues in managing others.
+                    Pre Requisites: IT 341
+                    <br><br>
+                    <h2>IT 442 windows System Administration</h2>
+                    <br>
+                    This course includes user management, file systems, network domains and domain management, mailers, and printing. Students get practice in writing scripts for performing maintenance tasks
+                    Pre Requisites: IT 341
+                    <br><br>
+                    <h2>IT 443 Network Security Administration</h2>
+                    <br>
+                    This course is project-based and includes such topics as threat analysis and management, cryptography, firewalls, isolation, issues in securing wireless networks, and certificates.
+                    Pre Requisites: IT 341
+
+                <p/>
+        
+            </center>
+        </aside>
+    </main>
+	<footer>
+		<p>&copy; 2018 University of Massachusetts Boston 100 William T. Morrissey Blvd. Boston, MA 02125-3393</p>
+	</footer>
+</body>
+</html>
