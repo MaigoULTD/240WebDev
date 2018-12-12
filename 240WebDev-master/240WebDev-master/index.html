@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Begin things that are code? idk. -->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>BSIT @ CM UMass Boston</title>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <script>
+    function cssSwap(url){
+        var stylesheet = document.getElementById("stylesheet");
+        stylesheet.setAttribute('href', url);
+        }
+    
+    </script>
+    <link id="stylesheet" rel="stylesheet" href="styles/main.css"/>
+</head>
+
+<body>
+	<header>
+		<img src=" images/main%20site%20logo.gif" alt="Main Site logo" height="80">
+		<h2>Bachelor of Science in Information Technology</h2>
+        <h3>Welcome!</h3>
+	</header>
+	<nav>
+    	<ul>
+        	<li class="active"><a href="index.html">Home</a></li>
+        	<li><a href="Professors.html">Professors</a></li>
+        	<li><a href="Careers.html">Careers</a></li>
+            <li><a href="tracks.html"> Tracks</a>
+                <ul>
+                	<li><a href="#">Systems Administration</a></li>
+                	<li><a href="#">Business Intelligence</a></li>
+                    <li><a href="#"> Information Architecture </a></li>
+                	<li class="lastnav"><a href="#">Cyber Forensics </a></li>
+            	</ul>
+            <li><a href="Classes.html">Classes</a>
+            </li>
+            <!-- Had to add the styles inline here bc the classes wouldnt work for some reason :P -->
+            <li style=float:right;><a  i class="fa fa-sun-o" aria-hidden="true" onclick="cssSwap('styles/main.css')" href="#"></a></li>
+            <li style=float:right;><a  i class="fa fa-moon-o" aria-hidden="true" onclick="cssSwap('styles/dark.css')" href="#"></a></li>
+        </ul>
+	</nav>
+	<main>
+		<article>
+            <figure>
+                 <img src="images/ind_figure.jpg" height=225em alt="bsitmajor">
+            </figure>
+            <h2>BSIT</h2>
+            <p>The Bachelor of Science in Information Technology (BSIT) Program is a joint program provided by the College of Management(CM) and the College of Science and Mathematics(CSM). The program provides a quality education that focuses on the skills and knowledge needed by one of the fastest growing fields. </p>
+            <p>The Bachelor of Science in Information Technology (BSIT) Program is a joint program provided by the College of Management(CM) and the College of Science and Mathematics(CSM). The program provides a quality education that focuses on the skills and knowledge needed by one of the fastest growing fields. </p>
+        </article>
+        <section>
+            <h1>News</h1>
+            <article class="news">
+                <h3><a href="news.html" title="#">Today This Happened in America...</a></h3>
+                <img height=50px; src="images/unknown.png">
+                <p> Today this happpened in America today this happened in america </p>
+            </article>
+            <article class="news">
+                <h3><a href="news.html" title="#">Today This Happened in America...</a></h3>
+                <img height=50px; src="images/unknown.png">
+                <p> Today this happpened in America today this happened in america </p>
+            </article>
+            <article class="news">
+                <h3><a href="news.html" title="#">Today This Happened in America...</a></h3>
+                <img height=50px; src="images/unknown.png">
+                <p> Today this happpened in America today this happened in america </p>
+            </article>
+            <article class="news">
+                <h3><a href="news.html" title="#">Today This Happened in America...</a></h3>
+                <img height=50px; src="images/unknown.png">
+                <p> Today this happpened in America today this happened in america </p>
+            </article>
+        </section>
+        
+	</main>
+	<footer>
+		<p>&copy; 2018 University of Massachusetts Boston 100 William T. Morrissey Blvd. Boston, MA 02125-3393</p>
+	</footer>
+</body>
+</html>

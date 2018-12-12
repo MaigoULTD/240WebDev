@@ -1,0 +1,167 @@
+
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: #2e3033;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 0 auto;
+    margin: 0 auto;111
+    background-color: #2e3033;
+}
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid black;
+    background-image: url(../images/nightime.png);
+}
+header h2 {
+	font-size: 175%;
+	color: gold;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    color: goldenrod;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #0000FF;
+}
+/* the styles for the navigation menu */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+    background-color: midnightblue;
+    
+}
+nav li {
+    display: inline-block;
+    position: relative;
+}
+nav li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: darkgrey;
+}
+
+
+nav ul li ul {
+    display:none;
+    position: absolute;
+}
+
+nav ul li:hover ul{
+    display:block;
+    box-shadow: 1px 1px 1px 1px;
+    border-bottom-left-radius: 25px;
+}
+
+.lastnav a:hover{
+    background-color: darkgrey;
+    border-bottom-left-radius: 25px;
+    
+}
+
+.active{
+    background-color:goldenrod;
+}
+/* the styles for the main content */
+main {
+	clear: left;
+    color: snow
+}
+
+/* the styles for the section */
+section {
+    width: 300px;
+    float:left;
+    padding-top: 20px;
+    display: block;
+}
+section h1 {
+	color: goldenrod;
+	font-size: 150%;
+	padding-top: .5em;
+	margin: 0;
+}
+section img {
+    border: 3px solid midnightblue;
+}
+
+/* the styles for the article */
+article {
+    width: 700x;
+    float: right
+	padding: .5em 23em;
+}
+article h2 {
+	font-size: 115%;
+	padding: 0 0 .25em 0;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+}
+article figure {
+	float: right;
+	margin: .5em 0 1em 1em;
+}
+article figcaption {
+	display: block;
+	font-weight: bold;
+	padding-top: .5em;
+	border-bottom: 1px solid black;
+}
+/* the styles for the aside */
+aside {
+	width: auto;
+	padding: 0  20px 20px;
+     
+}
+aside h2 {
+	color: goldenrod;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img {
+    border: 1px solid black;
+}
+
+/* the styles for the footer */
+footer {
+	background-color: midnightblue;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: floralwhite;
+	padding: 1em 0;
+}
+.class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+}
