@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Begin things that are code? idk. -->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>BSIT @ CM UMass Boston</title>
+	<link rel="shortcut icon" href="images/logo.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+	<script>
+    function cssSwap(url){
+        var stylesheet = document.getElementById("stylesheet");
+        stylesheet.setAttribute('href', url);
+        }
+    
+    </script>
+    <link id="stylesheet" rel="stylesheet" href="styles/professors.css"/>
+</head>
+
+<body>
+	<header>
+		<img src=" images/main%20site%20logo.gif" alt="Main Site logo" height="80">
+		<h2>Umass BSIT</h2>
+		<h3>Welcome!</h3>
+	</header>
+	<nav>
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+        	<li><a href="Professors.html">Professors</a></li>
+        	<li><a href="Careers.html">Careers</a></li>
+            <li><a href="tracks.html"> Tracks</a>
+                <ul>
+                	<li><a href="#">Systems Administration</a></li>
+                	<li><a href="#">Business Intelligence</a></li>
+                    <li><a href="#"> Information Architecture </a></li>
+                	<li class="lastnav"><a href="#">Cyber Forensics </a></li>
+            	</ul>
+            <li class="active"><a href="Classes.html">Classes</a>
+            </li>
+            <!-- Had to add the styles inline here bc the classes wouldnt work for some reason :P -->
+            <li style=float:right;><a  i class="fa fa-sun-o" aria-hidden="true" onclick="cssSwap('styles/professors.css')" href="#"></a></li>
+            <li style=float:right;><a  i class="fa fa-moon-o" aria-hidden="true" onclick="cssSwap('styles/professorsdark.css')" href="#"></a></li>
+        </ul>
+	</nav>
+	<main class="class">
+        <h1><center>BSIT Classes</center></h1>
+          
+        <h2><center>Required Classes</center></h2>
+                <br><br>
+                <img src="images/classes_req.PNG"alt="classrequirement">
+        <center><h1>Specific Track Requirements</h1></center>
+			
+				<center><h4><a href="Tracks/Systems_Administration.html">Systems Administration</a>
+                <br><br><a href="Tracks/Business_Intelligence.html">Business Intelligence</a>
+                </h4>
+                <br>
+                <h4><a href="Tracks/Information_Architecture.html">Information Architecture</a>
+                </h4>
+                <h4><br><a href="Tracks/Cyber_Forensics.html">Cyber Forensics</a></h4> 
+				<br> <br>
+                </center>
+	</main>
+	<footer>
+		<p>&copy; 2018 University of Massachusetts Boston 100 William T. Morrissey Blvd. Boston, MA 02125-3393</p>
+	</footer>
+</body>
+</html>
