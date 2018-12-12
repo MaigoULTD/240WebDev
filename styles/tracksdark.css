@@ -1,0 +1,228 @@
+
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: #2e3033;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 0 auto;
+    margin: 0 auto;
+    
+    background-color: #2e3033;
+}
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+    background: url(../images/nightime.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header h2 {
+	color: snow;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    color: snow;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #0000FF;
+}
+/* the styles for the navigation menu */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+    background-color: midnightblue;
+    
+}
+nav li {
+    display: inline-block;
+    position: relative;
+}
+nav li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: darkgrey;
+}
+
+nav ul li ul {
+    display:none;
+    position: absolute;
+}
+
+nav ul li:hover ul{
+    display:block;
+    box-shadow: 1px 1px 1px 1px;
+    border-bottom-left-radius: 25px;
+}
+
+.lastnav a:hover{
+    background-color: darkgrey;
+    border-bottom-left-radius: 25px;
+    
+}
+
+.active{
+    background-color:goldenrod;
+}
+/* the styles for the main content */
+main {
+	clear: left;
+}
+
+/* the styles for the section */
+section {
+	width: auto;
+	float:left;
+	padding: 0 20px 20px 20px;
+    
+}
+section h1 {
+	color: goldenrod;
+    text-align: center;
+    background-color:#2e3033;
+	font-size: 150%;
+	margin: 0;
+    border-radius: 10px;
+    border: 5px solid snow;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the article */
+article {
+	padding: .5em 0;
+}
+
+article p{
+    text-align: left;
+    padding:1em;
+    font-family: sans-serif;
+    line-height: 1.5;
+    
+    
+}
+article h1 {
+	font-size: 200%;
+    color:midnightblue;
+    text-align: center;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 3px solid goldenrod;
+}
+article figure {
+	float: right;
+	margin: .5em;
+}
+article figcaption {
+	display: block;
+	font-weight: bold;
+	padding-top: .5em;
+	border-bottom: 1px solid black;
+}
+
+.news{
+    display:block;
+}
+.news img{
+    float:left;
+    margin-right: .5em;
+}
+.news h3{
+    text-align: left;
+    margin-left: 1em;
+}
+.news p{
+    text-align: left;
+    
+}
+.news a{
+    font-style:italic;
+    text-decoration: none;
+    color:goldenrod;
+}
+
+/* the styles for the aside */
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
+aside h2 {
+	color: goldenrod;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img {
+	padding-bottom: 1em;
+}
+
+/* the styles for the footer */
+footer {
+	background-color: midnightblue;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: snow;
+	padding: 1em 0;
+}
+
+/* Styles for div used in Tracks */
+
+.container{
+    display: grid;
+    grid-template-columns:576px 576px;
+    padding: 1px;
+    grid-column-gap: 20px;
+}
+.grid-item{
+    padding: 20px;
+    border: 5px solid goldenrod;
+    color:snow;
+    
+}
+.grid-item img{
+    float:left;
+    
+}
+.grid-item h5{
+    padding-bottom: 5px;
+    color:snow;
+}
+.grid-item p{
+   font-family:sans-serif;
+}
